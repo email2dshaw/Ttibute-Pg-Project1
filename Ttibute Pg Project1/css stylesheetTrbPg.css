@@ -1,0 +1,244 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 27px;
+    color: whitesmoke;
+    background-color: rgb(213, 96, 41);
+    opacity: 0.9;
+    text-align: center;
+    margin: 0;
+    z-index: -0;
+}
+
+.header {
+    width: 100%;
+    height: 80px;
+    display: block;
+    background-color: orange;
+    position: fixed;
+    top: 0px;
+    border-bottom: 1.1px solid greenyellow;
+}
+
+.ready {
+    height: 99px;
+    float: left;
+    padding: 10px;
+}
+
+.nav {
+    float: right;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.nav,
+a {
+    height: 100%;
+    display: table;
+    float: right;
+    padding: 0px 20px;
+}
+
+.nav,
+a,
+li {
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    text-decoration: underline;
+    color: white;
+}
+
+.learn-container {
+    background-image: url("C: \Users\ASR PTAH PTAH ASR\OneDrive\Pictures\Saved Pictures\Screenshots\TrbPg3.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 700px;
+    max-width: 1200px;
+    margin: 10px 10px;
+    display: flex;
+    z-index: -0;
+}
+
+.mentors-container {
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 700px;
+    max-width: 1200px;
+    margin: 10 50px;
+    display: flex;
+    z-index: -0;
+    text-align: center;
+    font-size: 10px;
+    padding: 10px 10px;
+    align-content: space-between;
+}
+
+.classmates-container {
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 700px;
+    max-width: 1200px;
+    margin: 10 50px;
+    display: flex;
+    z-index: -0;
+    text-align: center;
+    font-size: 10px;
+    padding: 10px 10px;
+    align-content: space-between;
+}
+
+.text-over {
+    margin: auto;
+    background-color: orange;
+    width: 100%;
+    border: 1px solid greenyellow;
+    font-size: 33px;
+}
+
+
+
+h1 {
+    font-family: fantasy;
+    font-size: 333px;
+    color: white;
+    text-decoration: line-through;
+    text-align: center;
+}
+
+.meet {
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    text-align: center;
+}
+
+footer {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    color: black;
+    text-align: center;
+    z-index: 0;
+}
+
+.richard {
+    display: flex;
+    max-height: 300px;
+    max-width: 300px;
+
+}
+
+.jimesa {
+    display: flex;
+    max-height: 300px;
+    max-width: 300px;
+}
+
+.in-demand {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 30px;
+}
+
+.empower {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-top: 30px;
+}
+
+.name {
+    float: left;
+    color: yellow;
+    font-size: 36px;
+    margin: 10px 20px;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.mission {
+    width: 1090px;
+    min-height: 550px;
+    border: 1px solid greenyellow;
+
+}
+
+.photo {
+        max-width: 100px;
+        max-height: 100px;
+        display: flex;
+        margin-left: 10px;
+        display: inline;
+}
+
+.container {
+    min-width: 1200px;
+    min-height: 750px;
+    border: 3px solid yellowgreen;
+    padding: 1px;
+    margin-top: 99px;
+}
+
+.container-names {
+    display: flex;
+    width: 400px;
+    height: 300px;
+    border: 1px solid greenyellow;
+}
+
+
+h6 {
+    display: block;
+    flex-basis: baseline;
+    font-size: 20px;
+    bottom: 0;
+    align-content: center;
+}
+
+.one {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-size: 72px;
+}
+
+.banner {
+    height: 500px;
+    max-width: 1200px;
+    margin:40px auto auto auto;
+    padding-top: 85px;
+    background-image: url("");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.text-top {
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.profiles {
+    max-width: 1050px;
+    margin: 15px 10px;
+    justify-content: space-between;
+    display: flex;
+    display: block;
+}
+
+.photos {
+    height: 300px;
+    padding: 20px;
+    margin-bottom: auto;
+    display: flex;
+    display: block;
+    flex-basis: 30%;
+    box-sizing: border-box;
+    background-color: yellow;
+    opacity: 90;
+}
